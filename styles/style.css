@@ -1,6 +1,6 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     list-style: none;
     text-decoration: none;
 }
@@ -59,6 +59,10 @@ body{
     font-size: 20px;
     cursor: pointer;
     border-radius: 4px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: rgb(0, 190, 158);
 }
 
 .header_bottom{
@@ -71,6 +75,9 @@ body{
 .imgSection{
   margin-left: 80px;
   padding: 40px 0px 0px 20px;
+}
+.imgSection img{
+    vertical-align:bottom;
 }
 .header_bottom_section h2{
     font-size: 30px;
