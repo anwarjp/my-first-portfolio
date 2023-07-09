@@ -8,3 +8,79 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+
+.header_container{
+    background: #FFF8F3;
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+    padding-top: 20px;
+    
+
+}
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 230px;
+}
+
+.nav_part{
+    display: flex;
+    justify-content: space-around;
+}
+.nav_item_container{
+    display: flex;
+}
+.focused_letter{
+    color: rgb(227, 57, 57);
+}
+.nav_part > p{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.nav_item_container li{
+ margin: 10px;
+}
+.nav_item_container li a{
+    color: grey;
+    font-size: 18px;
+}
+.nav_item_container li a:hover{
+    color: rgb(0, 190, 158);
+}
+.btn{
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(227, 57, 57);
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.header_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 180px;
+    margin-left: 230px;
+}
+.imgSection{
+  margin-left: 80px;
+  padding: 40px 0px 0px 20px;
+}
+.header_bottom_section h2{
+    font-size: 30px;
+}
+.name{
+    margin: 10px auto;
+    font-size: 45px;
+    font-weight: bolder;
+}
+.btn_header{
+    margin-top: 10px;
+    margin-left: 0px;
+}
